@@ -7,7 +7,7 @@ def inputCheck(city, country):
     url=f"https://www.geonames.org/search.html?q={city}+{country}&country="
     headers={
         "Accept" : "*/*",
-  #You meed to add your own user-agent
+  #You need to add your own user-agent
         "user-agent" : ""
     }
 
