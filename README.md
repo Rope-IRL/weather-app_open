@@ -16,5 +16,5 @@
  The file GetAllCountries.py gets the names of all countries and puts them in a txt file , but it is <b>NOT</b> used in the project
 </div></br>
 <div>
-  <b>You need to create YOUR OWN bot-token and openweather-token</b>
+  <b>You need to create YOUR OWN bot-token and openweather-token and make auth_data file</b>
 </div>
