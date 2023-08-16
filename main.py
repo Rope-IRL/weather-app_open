@@ -7,7 +7,7 @@ from auth_data import weather_token
 
 class Weather_data:
     def get_weatherData(self,city):
-#Triying to get data from openweather and then, get 
+#Triying to get data from openweather and then, get data in json format
        try: 
            req=requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={weather_token}&units=metric")
            data=req.json()
